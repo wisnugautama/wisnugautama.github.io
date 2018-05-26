@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* line-height: 0; */
+  font-family: 'Bitter', serif;
+}
+
+body {
+  /* background-color: #110806; */
+  background-color: black;
+  /* background-image: url('img/sd.png'); */
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+}
+
+.header {
+  height: 50px;
+  /* border: 2px solid white; */
+  background-color: #494949;
+}
+
+.header ul li {
+  display: inline-block;
+  color: white;
+  margin-top: 13px;
+  margin-left: 310px;
+  /* border: 2px solid white; */
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+}
+
+.header-image {
+  margin: 20px auto;
+  width: 520px;
+  /* border: 2px solid white; */
+}
+
+.galeri {
+  width: 600px;
+  margin: 30px auto;
+  border: 5px solid white;
+  overflow: auto;
+}
+
+.thumb {
+  width: 200px;
+  float: left;
+  border: 2px solid white;
+  box-sizing: border-box;
+}
+
+.thumb:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+@@keyframes efek {
+  to {
+    opacity: 1;
+  }
+}
+
+.fading {
+  opacity: 0;
+  animation: efek 0.5s forwards;
+}
+
+.content {
+  height: 400px;
+  width: 700px;
+  border: 2px solid white;
+  margin: auto;
+  /* background-color: red; */
+}
+
+#left-content {
+  width: 50%;
+  min-height: 400px;
+  border: 2px solid white;
+  box-sizing: border-box;
+  float: left;
+  color: white;
+  text-align: justify;
+  padding: 10px;
+  /* font-size: 20px; */
+}
+
+#right-content {
+  width: 50%;
+  min-height: 400px;
+  border: 2px solid white;
+  float: right;
+  box-sizing: border-box;
+}
+
+p {
+  padding-top: 10px;
+}
+
+.contoh {
+  border-radius: 0.9em;
+  width: 280px;
+  border: 2px solid white;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+audio {
+  margin-left: 10px;
+  padding-top: 5px;
+}
+
+#right-content h1 {
+  text-align: center;
+  padding-top: 10px;
+  color: white;
+  padding-bottom: 12px;
+}
+
+.input {
+  border-radius: 100em;
+  width: 300px;
+  height: 30px;
+  margin-left: 20px;
+  /* padding-top: 10px; */
+  margin-bottom: 10px;
+}
+
+.label {
+  /* margin-left: 140px; */
+  /* border: 2px solid white; */
+  margin-left: 30px;
+  color: white;
+
+}
+
+.submit {
+  margin-left: 140px;
+  font-size: 100px;
+}
